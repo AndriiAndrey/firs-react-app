@@ -1,0 +1,49 @@
+
+.descriptionBlock{
+    padding: 10px;
+    display: grid;
+    text-align: left;
+
+    grid-template-areas:
+    "p i";
+
+    grid-template-columns: 300px 6fr;
+    grid-gap: 10px;
+
+}
+
+.mainPhoto{
+    max-width: 300px;
+    border-radius: 100px;
+}
+
+.contact{
+    padding-left: 30px;
+}
+
+
+.formControl.error input,
+.formControl.error textarea{
+
+    border: solid red 2px;
+}
+
+.formControl.error span
+{
+color: red; 
+}
+
+.formSummaryError {
+    border: red 1px solid;
+    padding: 5px;
+    color:red;
+}
+
+.photoStatus{
+    grid-area: p;
+}
+
+.dataWrapper{
+    grid-area: i;
+    
+}
