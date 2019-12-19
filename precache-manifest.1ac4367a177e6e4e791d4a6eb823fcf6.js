@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56da0e06b2dfe74386ffd23bb1a3c6d3",
+    "revision": "8166f7fa6b1d8f2f3e8850f2ceef0805",
     "url": "/firs-react-app/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/firs-react-app/static/css/4.8034b984.chunk.css"
   },
   {
-    "revision": "0b21b8b99b8c52dc6db9",
+    "revision": "ced5c64dfb0fe219403d",
     "url": "/firs-react-app/static/css/main.3f68c097.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/firs-react-app/static/js/4.8d11addc.chunk.js"
   },
   {
-    "revision": "0b21b8b99b8c52dc6db9",
-    "url": "/firs-react-app/static/js/main.8804bd53.chunk.js"
+    "revision": "ced5c64dfb0fe219403d",
+    "url": "/firs-react-app/static/js/main.ef7d5394.chunk.js"
   },
   {
     "revision": "350b9a24bc05b762fa0a",
