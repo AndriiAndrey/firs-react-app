@@ -40,7 +40,7 @@ const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto, savePro
             
             { isOwner 
             ? <ProfileStatusWithHooks status={status} updateStatus={updateStatus} />
-            : status || "No status"}
+            : <div> <b>Status:</b> {status || "No status"} </div>}
     </div>
 
      <div className={classes.dataWrapper}>
