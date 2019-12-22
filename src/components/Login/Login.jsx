@@ -30,7 +30,7 @@ const LoginForm = ({handleSubmit, error, captchaUrl}) => {
             </div> */}
 
             {captchaUrl && <img src={captchaUrl} />}
-            {captchaUrl &&  createField("Tipe sumbols from picture here", "captcha", [required], Input, {}, {} ) }
+            {captchaUrl &&  createField("Type sumbols from picture here", "captcha", [required], Input, {} ) }
 
             { error && <div className={classes.formSummaryError}>
                 {error}
