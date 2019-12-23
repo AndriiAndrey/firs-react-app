@@ -29,8 +29,6 @@ export const initializeApp = () => (dispatch) =>{
     dispatch(initializedSuccess())
   });
 
-  dispatch(initializedSuccess())
-
 }
 
 export default appReducer;
