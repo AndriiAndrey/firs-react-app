@@ -30,9 +30,9 @@ const dialogsReducer = (state = initialState, action) => {
                     messages: [...state.messages, {id: 6, message: body}]
                 };
 
-                case DELETE_MESSAGE: {
-                    return {...state, messages: state.messages.filter(m => m.id != action.messageId) }
-                };
+                case DELETE_MESSAGE: 
+                    return {...state, messages: state.messages.filter(m => m.id !== action.messageId) }
+                ;
 
         default :
              return state;
